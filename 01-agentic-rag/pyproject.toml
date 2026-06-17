@@ -1,5 +1,5 @@
 [project]
-name = "llm-zoomcamp-2026-code"
+name = "01-agentic-rag"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -14,9 +14,4 @@ dependencies = [
     "requests>=2.34.2",
     "sqlitesearch>=0.1.0",
     "toyaikit>=0.0.11",
-]
-
-[tool.uv.workspace]
-members = [
-    "02-vector-search",
 ]

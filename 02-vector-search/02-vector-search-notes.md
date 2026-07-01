@@ -785,9 +785,3 @@ The important detail is that `rrf()` does not compare raw scores. It only looks 
 The main insight is that hybrid search can recover useful documents that one method alone might miss. If a chunk is a semantic match for the query and also contains an exact keyword, it is more likely to survive the fusion step.
 
 In the homework example, the top fused result may not be the top result from text search or vector search separately. It wins because it ranks strongly in both lists, which is exactly what hybrid search is designed to reward.
-
-Key terms:
-- **Hybrid search**: combines text search and vector search.
-- **Reciprocal Rank Fusion (RRF)**: merges ranked lists using rank-based scoring.
-- **Rank**: the position of a result in a search list.
-- **Fusion**: combining multiple ranked lists into one final ranking.
